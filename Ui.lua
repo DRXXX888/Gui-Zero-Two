@@ -1987,3 +1987,75 @@ SoundClick:Play()
     end
     return Tab
 end
+
+
+
+local Win = Ui:Window('Kurumi Hub')
+local tab1 = Win:CraftTab('Main')
+local tab2 = Win:CraftTab('Shop')
+local tab3 = Win:CraftTab('Credits')
+local page1 = tab1:CraftPage('Main',1)
+local page2 = tab1:CraftPage('Function Toggle',2)
+local page3 = tab2:CraftPage('L maxz_0012',2)
+local page4 = tab2:CraftPage('Fuck you maxz_0012',1)
+local credit = tab3:CraftPage('   \\\\\\ Credit / / /',1)
+
+
+
+page1:Line()
+local Label1 = page1:Label('Synap1_x')
+page1:Seperator('UwU')
+page1:Button("Button / Set Label",function()
+    Label1:Update("Native")
+end
+)
+
+
+local Toggle1 = page1:Toggle('Auto Farm',false,function(ku)
+     _G.Farm = ku
+  while _G.Farm do wait()
+    pcall(function()
+      for i,v in pairs(game:GetService("Workspace").Monter:GetDescendants()) do
+        if v.Name == mob then
+          if v.Humanoid.Health > 0 then
+            repeat task.wait()
+              game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,3)
+            until _G.Farm == false or v.Humanoid.Health <= 0
+          end
+        end
+      end
+    end)
+    end
+end
+
+)
+
+
+
+
+local Label3 = page3:Label('Fuck you maxz_0012')
+page3:Seperator('L')
+
+local Label5 = page4:Label('I love max')
+page4:Seperator('Dumb')
+page4:Button("Click this",function()
+    Label5:Update("Sike i hate that shit!")
+end
+)
+
+
+credit:Seperator('Your credits')
+credit:Label('Example : Blah Blah')
+
+
+
+local credit2 = tab3:CraftPage("                   \\\\\\ Credit UI / / /", 2)
+
+credit2:Seperator("Gui Builder")
+
+credit2:Label("Original by : G3 Lib (idk the owner)")
+
+credit2:Label(
+    'Editted by : <font color="#98DAF1">alex</font><font color="#E78C89">the</font><font color="#81CB71">immortal.</font>'
+)
+credit2:Label('Colored Text : <font color="#de6cff">Ammiria</font>')
