@@ -2023,6 +2023,10 @@ local Toggle1 = page1:Toggle('Auto Farm',false,function(ku)
               
               game:GetService("Players").LocalPlayer.Character.IceCream.Torture.Fire:FireServer()
               
+              game:GetService("Players").LocalPlayer.Character.FrieSwordV2.Skill2.Fire:FireServer()
+
+              game:GetService("Players").LocalPlayer.Character.FrieSwordV2.RainingMagma.Fire:FireServer()
+              
             until _G.Farm == false or v.Humanoid.Health <= 0
           end
         end
