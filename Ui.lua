@@ -2020,6 +2020,9 @@ local Toggle1 = page1:Toggle('Auto Farm',false,function(ku)
           if v.Humanoid.Health > 0 then
             repeat task.wait()
               game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,3)
+              
+              game:GetService("Players").LocalPlayer.Character.IceCream.Torture.Fire:FireServer()
+              
             until _G.Farm == false or v.Humanoid.Health <= 0
           end
         end
