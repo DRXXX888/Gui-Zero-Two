@@ -2016,7 +2016,7 @@ local Toggle1 = page1:Toggle('Auto Farm',false,function(ku)
   while _G.Farm do wait()
     pcall(function()
       for i,v in pairs(game:GetService("Workspace").Monter:GetDescendants()) do
-        if v.Name == "บอสช้าง" or "Rockket" then
+        if v.Name == "บอสช้าง" then
           if v.Humanoid.Health > 0 then
             repeat task.wait()
               game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,3)
