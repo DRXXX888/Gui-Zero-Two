@@ -1,4 +1,13 @@
 {
+  "name": "CustomTheme",
+  "description": "Custom theme with imported fonts and styles",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "AuthorName",
+      "id": "123456789"
+    }
+  ],
   "imports": [
     "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap",
     "https://discordstyles.github.io/SoftX/RadialGlow.css",
@@ -6,26 +15,34 @@
     "https://discordstyles.github.io/Addons/windows-titlebar.css",
     "https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.theme.css"
   ],
-  "root": {
-    "--background": "url('https://so1ta.github.io/Images/kurumi-4K.png')",
-    "--font": "Inter",
-    "--transparencyalpha": 0.7,
-    "--transparencycolor": "0,0,0",
-    "--messagetransparency": 0,
-    "--guildchanneltransparency": 0,
-    "--chatinputtransparency": 0,
-    "--memberlisttransparency": 0.3,
-    "--accentcolor": "144,0,32,0.6"
+  "semanticColors": {
+    "BACKGROUND": "url('https://so1ta.github.io/Images/kurumi-4K.png')",
+    "FONT": "Inter",
+    "TRANSPARENCY_ALPHA": "0.7",
+    "TRANSPARENCY_COLOR": "0,0,0",
+    "MESSAGE_TRANSPARENCY": "0",
+    "GUILD_CHANNEL_TRANSPARENCY": "0",
+    "CHAT_INPUT_TRANSPARENCY": "0",
+    "MEMBER_LIST_TRANSPARENCY": "0.3",
+    "ACCENT_COLOR": "rgba(144,0,32,0.6)"
   },
   "theme-dark": {
-    "--text-normal": "#ffffff",
-    "--text-muted": "#ffffff",
-    "--header-primary": "#ff4f75",
-    "--channels-default": "#ff90a2",
-    "--header-secondary": "#ff90a2",
-    "--interactive-normal": "#ff90a2",
-    "--interactive-hover": "#ffffff",
-    "--interactive-active": "#ffffff",
-    "--background-modifier-accent": "#fff2"
+    "TEXT_NORMAL": "#ffffff",
+    "TEXT_MUTED": "#ffffff",
+    "HEADER_PRIMARY": "#ff4f75",
+    "CHANNELS_DEFAULT": "#ff90a2",
+    "HEADER_SECONDARY": "#ff90a2",
+    "INTERACTIVE_NORMAL": "#ff90a2",
+    "INTERACTIVE_HOVER": "#ffffff",
+    "INTERACTIVE_ACTIVE": "#ffffff",
+    "BACKGROUND_MODIFIER_ACCENT": "#fff2"
+  },
+  "rawColors": {
+    "PRIMARY_100": "#ffffff",
+    "PRIMARY_200": "#ff4f75",
+    "PRIMARY_300": "#ff90a2"
+  },
+  "background": {
+    "url": "https://so1ta.github.io/Images/kurumi-4K.png"
   }
 }
