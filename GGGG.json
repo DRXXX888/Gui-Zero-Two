@@ -1,0 +1,31 @@
+{
+  "imports": [
+    "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap",
+    "https://discordstyles.github.io/SoftX/RadialGlow.css",
+    "https://discordstyles.github.io/SoftX/VerticalUserArea.css",
+    "https://discordstyles.github.io/Addons/windows-titlebar.css",
+    "https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.theme.css"
+  ],
+  "root": {
+    "--background": "url('https://so1ta.github.io/Images/kurumi-4K.png')",
+    "--font": "Inter",
+    "--transparencyalpha": 0.7,
+    "--transparencycolor": "0,0,0",
+    "--messagetransparency": 0,
+    "--guildchanneltransparency": 0,
+    "--chatinputtransparency": 0,
+    "--memberlisttransparency": 0.3,
+    "--accentcolor": "144,0,32,0.6"
+  },
+  "theme-dark": {
+    "--text-normal": "#ffffff",
+    "--text-muted": "#ffffff",
+    "--header-primary": "#ff4f75",
+    "--channels-default": "#ff90a2",
+    "--header-secondary": "#ff90a2",
+    "--interactive-normal": "#ff90a2",
+    "--interactive-hover": "#ffffff",
+    "--interactive-active": "#ffffff",
+    "--background-modifier-accent": "#fff2"
+  }
+}
