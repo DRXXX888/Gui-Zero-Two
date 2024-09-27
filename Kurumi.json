@@ -182,7 +182,7 @@
         "WHITE_630": "#676977"
     },
     "background": {
-        "blur": 0.6,
+        "blur": 0.8,
         "url": "https://raw.githubusercontent.com/Secret4869/Secret/main/Background.jpeg"
     },
     "plus": {
@@ -227,5 +227,4 @@
           "NotoSans-Semibold": "https://github.com/Rairof/Theme-Fonts/blob/main/Linotte/Linotte-SemiBold.ttf?raw=1",
           "SourceCodePro-Semibold": "https://github.com/Rairof/Theme-Fonts/blob/main/Linotte/Linotte-SemiBold.ttf?raw=1"
     },
-    "spec": 2
-}
+   
